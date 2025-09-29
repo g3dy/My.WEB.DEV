@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 6px;
+}
+
+.menu {
+    position: absolute;
+    display: none;
+    width: 120px;
+    top: 50px;
+    left: 4px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+}
+
+header:hover .menu {
+    display: block;
+}
+
+.dropdown-button {
+    background-color: white;
+    height: 45px;
+    width: 45px;
+    margin-top: 3px;
+    margin-left: 4px;
+}
+
+.menu a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px;
+}
+
+.menu a:hover {
+    background-color: white;
+    text-decoration: underline;
+}
+
+a[class="contribute"]:hover {
+    text-decoration: none;
+    cursor: default;
+    background-color: none;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+.image1 {
+    float: left;   /* or right */
+    margin-right: 15px; /* space between image & text */
+      /* image size control */
+}
+.huhu {
+    color: green;
+}
