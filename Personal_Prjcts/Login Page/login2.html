@@ -5,26 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="login2.css">
-</head>
-
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 <body>
-    <div>
-        <form>
-            <div>
-                <label>Enter email</label>
-                <input type="email">
+
+    <div class="wrapper">
+        
+        <form action="">
+            <h1>Login</h1>
+
+            <div class="user-input">
+                <input type="text" placeholder="Username" required>
+                <i class='bx  bx-user'  ></i> 
             </div>
 
-            <div>
-                <label>Password</label>
-                <input type="password">
+            <div class="user-input">
+                <input type="password" placeholder="password" required>
+                <i class='bx  bx-lock'  ></i> 
             </div>
 
-            <div>
+            <div class="remember-me">
                 <label><input type="checkbox"> Remember me</label>
+                <a href="#">Forgot password?</a>
             </div>
 
-            <input type="submit" value="Sign in">
+            <div>
+                <button class="btn" type="submit">Login</button>
+            </div>
+
+            <div class="create-account">
+                <p>Dont have an account? 
+                    <a href="#">Register</a>
+                </p>
+            </div>
         </form>
     </div>    
 </body>
