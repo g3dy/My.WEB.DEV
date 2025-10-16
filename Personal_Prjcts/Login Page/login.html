@@ -5,12 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
 </head>
+
+
 <body>
-    <div class="login-page">
-        <h1>Login</h1>
-        <input class="username" type="text" placeholder="Usernam">
-        <input class="login" type="password" placeholder="Password">
+    <div class="wrapper">
+        <form action="#">
+            <h1>Login</h1>
+
+            <div class="user-input">
+                <input type="text" placeholder="Username">
+            </div>
+
+            <div class="user-input">
+                <input type="password" placeholder="Password">
+            </div>
+
+            <div class="remember-me">
+                <label><input type="checkbox"> Remember me</label>
+                <a href="#">Forgot password</a>
+            </div>
+
+            <div class="btn">
+                <button type="button" onclick="login()">Login</button>
+            </div>
+
+            <div class="register">
+                <p>Don't have an account? 
+                    <a href="#">Register</a>
+                </p>
+            </div>
+
+            <script>
+            function login() {
+                window.location.href = "success.html";
+            }
+        </script>
+        </form>
+
+        
     </div>
 </body>
 </html>
