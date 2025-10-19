@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="login.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
 </head>
 
 
@@ -17,10 +17,12 @@
 
             <div class="user-input">
                 <input type="text" placeholder="Username">
+                <i class='bx  bx-user'  ></i>
             </div>
 
             <div class="user-input">
                 <input type="password" placeholder="Password">
+                <i class='bx  bx-lock'  ></i> 
             </div>
 
             <div class="remember-me">
@@ -42,6 +44,10 @@
             function login() {
                 window.location.href = "success.html";
             }
+
+            //setTimeout(() => {
+              //  windows.location.href = 'success.html';
+           // }, 2000);
         </script>
         </form>
 
